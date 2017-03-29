@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+
+* {font-family: 'Lato'}
+
+body {background-color: #808080}
+
+.sitename {
+  font-size: 5em;
+  font-family: Impact;
+}
+
+.button{
+border-radius: 5px;
+border: solid black;
+background-color: #66CCCC;
+width: 100px;
+height: 50px;
+}
+
+.textbody{
+margin-left: auto;
+margin-right: auto;
+padding-top: 1em;
+padding-bottom: 2em;
+padding-left: 2em;
+padding-right: 2em;
+width: 50em;
+font-size: 20px;
+}
+
+.circular.ui.icon.button.one {background: #FF6961}
+.circular.ui.icon.button.two {background: #ADD8E6}
+.circular.ui.icon.button.three {background: #98FB98}
+.circular.ui.icon.button.four {background: #FFFF00}
+
+.phone.icon.square.green {zoom: 200%}
+.mail.icon.square.black {zoom: 200%}
+.facebook.icon.square.book {
+  zoom: 200%;
+  color: #3B5998
+}
+
+#map {
+  margin: auto;
+  width: 1000px;
+  height: 800px;
+  background-color: #CCC;
+}
+
+.fields.book {margin: auto}
+
+.ui.card.books {margin: auto}
+
+.quicknav {
+  position: fixed;
+  top: .5em;
+  right: .5em;
+}
+
+.on {visibility: visible}
+.off {visibility: hidden}
+
+.image.crop {
+  width: auto;
+  height: 150px;
+  overflow: hidden;
+  position: center;
+}
+
+h1{
+font-size: 10em;
+margin-bottom: -0.2em;
+}
+
+a {text-decoration:none}
+
+/*ul code below used for Navbar config, and allows ul in other locations
+to not be affected by these presets*/
+ .navbar{
+    list-style-type: none;
+    margin-top: 1em;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+
+}
+ul li {
+    float: left;
+    background-color: #333 ;
+
+}
+ul li a {
+    display: block;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+ul li a:hover {
+    background-color: #778899;
+}
+.active {
+    background-color: #EE7600;
+}
+/*End of Navbar Config*******************************************/
+
+
+
+/*Img wrap Config*************************************************/
+.imgWrap {
+  position: relative;
+  height: 100px;
+  width: 257px;
+}
+
+.imgDescription {
+  position: relative;
+  top: -50;
+  bottom: 50px;
+  left: 100px;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+
+  -webkit-transition: visibility opacity 0.2s;
+
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+/*End of Img Wrap config**************************************/
